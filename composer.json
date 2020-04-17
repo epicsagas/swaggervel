@@ -21,13 +21,13 @@
     },
     "autoload": {
         "psr-0": {
-            "Appointer\\Swaggervel": "src/"
+            "Epicsagas\\Swaggervel": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Appointer\\Swaggervel\\SwaggervelServiceProvider"
+                "Epicsagas\\Swaggervel\\SwaggervelServiceProvider"
             ]
         }
     }

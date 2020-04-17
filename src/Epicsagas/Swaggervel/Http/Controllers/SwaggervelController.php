@@ -1,4 +1,4 @@
-<?php namespace Appointer\Swaggervel\Http\Controllers;
+<?php namespace Epicsagas\Swaggervel\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;

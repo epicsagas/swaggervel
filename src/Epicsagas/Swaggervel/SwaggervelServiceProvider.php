@@ -1,6 +1,6 @@
 <?php
 
-namespace Appointer\Swaggervel;
+namespace Epicsagas\Swaggervel;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
@@ -52,7 +52,7 @@ class SwaggervelServiceProvider extends ServiceProvider
         ], 'views');
 
         if (!$this->app->routesAreCached()) {
-            Route::group(['namespace' => 'Appointer\Swaggervel\Http\Controllers'], function () {
+            Route::group(['namespace' => 'Epicsagas\Swaggervel\Http\Controllers'], function () {
                 require __DIR__ . '/Http/routes.php';
             });
         }

@@ -1,5 +1,5 @@
 {
-    "name": "appointer/swaggervel",
+    "name": "epicsags/swaggervel",
     "description": "A great way to integrate Swagger into Laravel",
     "keywords": ["laravel", "swagger", "documentation", "api"],
     "license": "MIT",

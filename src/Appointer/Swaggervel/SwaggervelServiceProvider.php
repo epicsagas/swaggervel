@@ -1,6 +1,6 @@
 <?php
 
-namespace Appointer\Swaggervel;
+namespace Epicsagas\Swaggervel;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
